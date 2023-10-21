@@ -1,0 +1,15 @@
+1. create a form with action /uploadMusic enctype = multipart
+2. create post route /uploadMusic
+    install multer
+    setups memory storage
+    use upload.single in /upload route
+
+3. create  gfsbucket and gfsbucketPoster 
+
+4. create conn.once and setup gfsbucket and gfsbucketPoster
+
+5. user node-id3 to extract poster from song buffer
+
+6. use gfsbucket and gfsbucketPoster to upload music to database
+
+7. use song model to bind poster and music

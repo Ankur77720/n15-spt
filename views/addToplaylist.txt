@@ -1,0 +1,13 @@
+1. playList create krwao user 
+
+2. ek route reate route /addToPlaylist/playlistKiID/songKiId
+
+3. find kro playlist ko req.params.playlistKiID 
+
+4. find kro song ko with the help of req.params.songkiId
+
+5. song ki id ko push krdo playlist ke songs array me
+
+6. song and playlist ko save krdo .save()
+
+7. res.redirect('/')
